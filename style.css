@@ -1,10 +1,16 @@
 body
 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   margin:0;
   width:100%;
   background-image: url("img/background2.jpg");
 }
+
+/*
+font-family: 'Mitr', sans-serif;
+font-family: 'Mukta Vaani', sans-serif;
+font-family: 'MuseoModerno', cursive;
+*/
 
 *
 {
@@ -44,12 +50,53 @@ a{
   text-decoration: none;
 }
 
+#welcome_view{
+  position: relative;
+}
+
+#welcome_container{
+  position: absolute;
+  left:53vw;
+  margin-right:10vw;
+  width:35vw;
+  top:22vh;
+  z-index: 3;
+}
+
+#welcome_header
+{
+  font-size: 116px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+#welcome_paragraph{
+  font-size: 44px;
+  margin-top:0;
+  font-weight: 200;
+}
+
+#welcome_button{
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  font-size: 26px;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #000;
+  border: 3px solid #000;
+  cursor: pointer;
+  font-family: 'Mitr', sans-serif;
+}
+
 main
 {
-  background-color: black;
+  background-color: #e8f0e4;
   text-align: center;
   position: relative;
-  top:-10vh;
+  top:-15vh;
 }
 
 #content{
@@ -59,7 +106,7 @@ main
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
-  background-color: white;
+  background-color: #e8f0e4;
 }
 
 h1{
@@ -87,9 +134,6 @@ footer
 
 @media (min-width: 800px)
 {
-  main{
-  top:-30vh;
-  }
 
   .navigation__item:hover
   {
