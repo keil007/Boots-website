@@ -6,4 +6,10 @@
         scrollTop: toptop
       },
       1100);
+});*/
+
+$('#welcome_button').hover(function() {
+  $('#welcome_video').css('filter','blur(15px)');
+}, function() {
+  $('#welcome_video').css('filter','none');
 });
