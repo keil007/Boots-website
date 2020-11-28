@@ -180,6 +180,7 @@ main
   justify-content: space-evenly;
   align-items: flex-start;
   flex-wrap: wrap;
+  position: relative;
 }
 
 #third_header
@@ -195,6 +196,7 @@ main
 
 #third_heels{
   max-width:650px;
+  z-index: 2;
 }
 
 .third_span{
@@ -207,6 +209,7 @@ main
 
 #third_container{
   width:37%;
+  z-index: 2;
 }
 
 #third_paragraph{
@@ -250,24 +253,23 @@ main
   box-shadow: 0px 0px 0px 3px white,0px 0px 0px 5px black;
 }
 
-#fourth
-{
-  height:100vh;
-  width:100vw;
-  background-color: seashell;
-  position: relative;
-}
-
-#fourth_background
+#third_background
 {
   position: absolute;
   color: white;
   text-shadow: 2px 2px #ccc,-16px 8px #ccc, 2px -2px #ccc,-2px 2px #ccc,-2px -2px #ccc;
   font-size: 500px;
   top:-35vh;
-  filter:blur(5px);
-  -webkit-filter: blur(5px);
-  z-index: 1;
+  filter:blur(7px);
+  -webkit-filter: blur(7px);
+}
+
+#fourth
+{
+  height:100vh;
+  width:100vw;
+  background-color: seashell;
+  position: relative;
 }
 
 /* -----------------------------------------------------------------------------------------------------  CONTENT  -----------------------------------------------------------------------------------------------*/
