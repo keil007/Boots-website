@@ -177,12 +177,77 @@ main
   width:100vw;
   background-color: white;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#third_header
+{
+  font-size: 62px;
+  width:100%;
+  font-family: 'Dirga';
+  letter-spacing: 20px;
+  font-weight: 800;
+  text-shadow: 1px 1px #bbb,2px 2px #bbb,3px 3px #bbb,4px 4px #bbb,5px 5px #bbb,6px 6px #bbb,7px 7px #bbb,8px 8px #bbb,9px 9px #bbb;
+  margin-bottom: 15vh;
+}
+
+#third_heels{
+  max-width:650px;
+}
+
+.third_span{
+  color:#1435b6;
+}
+
+.third_header_span{
+  text-shadow: 1px 1px #667cd4,2px 2px #667cd4,3px 3px #667cd4,4px 4px #667cd4,5px 5px #667cd4,6px 6px #667cd4,7px 7px #667cd4,8px 8px #667cd4,9px 9px #667cd4;
+}
+
+#third_container{
+  width:37%;
 }
 
 #third_paragraph{
-  width:50%;
+  margin-top:10vh;
+  margin-bottom: 15vh;
+  line-height: 60px;
+  font-size: 36px;
+  font-family: 'Dirga';
+  font-weight: 600;
+}
+
+.third_button{
+  font-size: 18px;
+  width:6vw;
+  padding: 5px 0;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-family: 'Mukta Vaani', sans-serif;
+  font-weight: 400;
+}
+
+.third_button_left{
+  background-color: white;
+  color:#000;
+}
+
+.third_button_left:hover{
+  border:none;
+  box-shadow: 0px 0px 0px 3px white,0px 0px 0px 5px black;
+}
+
+.third_button_right{
+  background-color: #000;
+  color:white;
+  margin-left: 10px;
+}
+
+.third_button_right:hover{
+  border:none;
+  box-shadow: 0px 0px 0px 3px white,0px 0px 0px 5px black;
 }
 
 #fourth
@@ -216,13 +281,13 @@ main
   text-align: center;
   background-color: #e8f0e4;
 }
-
+/*
 h1{
   font-size: 72px;
   flex:100%;
   -ms-flex:100%;
 }
-
+*/
 .tile
 {
   background-color: blanchedalmond;
