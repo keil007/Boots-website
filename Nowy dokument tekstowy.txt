@@ -9,3 +9,4 @@ More details about technique
 BUTTON
 
 
+Dodać tło wyblurowane dla trzeceigo slidu
